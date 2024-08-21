@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { IconProps } from "@radix-ui/react-icons/dist/types";
 
 export function Footer() {
   return (
@@ -13,7 +14,7 @@ export function Footer() {
           </Link>
           <p className="text-muted-foreground">
             Acme Inc. is an innovation partner that provides cutting-edge
-            software solutions to elevate our clients' businesses.
+            software solutions to elevate our clients&apos; businesses.
           </p>
         </div>
         <div className="flex justify-center">
@@ -60,7 +61,7 @@ export function Footer() {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: IconProps) {
   return (
     <svg
       {...props}

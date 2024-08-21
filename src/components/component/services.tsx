@@ -1,3 +1,5 @@
+import { IconProps } from "@radix-ui/react-icons/dist/types";
+
 export function Services() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
@@ -57,7 +59,7 @@ export function Services() {
   );
 }
 
-function CalendarIcon(props) {
+function CalendarIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -79,7 +81,7 @@ function CalendarIcon(props) {
   );
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -99,7 +101,7 @@ function CodeIcon(props) {
   );
 }
 
-function MicroscopeIcon(props) {
+function MicroscopeIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -123,7 +125,7 @@ function MicroscopeIcon(props) {
   );
 }
 
-function PuzzleIcon(props) {
+function PuzzleIcon(props: IconProps) {
   return (
     <svg
       {...props}
