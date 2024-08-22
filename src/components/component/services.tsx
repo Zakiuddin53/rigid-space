@@ -39,7 +39,15 @@ export function Services() {
   );
 }
 
-function ServiceItem({ icon, title, description }) {
+function ServiceItem({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}) {
   return (
     <div className="flex flex-col items-center text-center max-w-sm gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
       <div className="rounded-full bg-primary p-3 text-primary-foreground">
