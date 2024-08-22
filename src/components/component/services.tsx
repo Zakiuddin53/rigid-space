@@ -2,60 +2,52 @@ import { IconProps } from "@radix-ui/react-icons/dist/types";
 
 export function Services() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-      <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-        <div className="space-y-3">
+    <section className="w-full py-6 md:py-12 lg:py-20 bg-muted">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
             Our Services
           </h2>
-          <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="mx-auto max-w-[600px] mt-4 text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             We offer a range of services to help your business succeed.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
-            <div className="rounded-full bg-primary p-3 text-primary-foreground">
-              <PuzzleIcon className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-semibold">Integrated Solutions</h3>
-            <p className="text-muted-foreground">
-              Comprehensive and cohesive solutions to streamline and optimize
-              your business.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
-            <div className="rounded-full bg-primary p-3 text-primary-foreground">
-              <CodeIcon className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-semibold">Web Development</h3>
-            <p className="text-muted-foreground">
-              Designing and developing custom websites with cutting-edge
-              technologies.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
-            <div className="rounded-full bg-primary p-3 text-primary-foreground">
-              <MicroscopeIcon className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-semibold">SEO Optimization</h3>
-            <p className="text-muted-foreground">
-              Improving online visibility and organic traffic through strategic
-              tactics.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
-            <div className="rounded-full bg-primary p-3 text-primary-foreground">
-              <CalendarIcon className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-semibold">Product Planning</h3>
-            <p className="text-muted-foreground">
-              Comprehensive services to plan and strategize for successful
-              product development.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 justify-items-center">
+          <ServiceItem
+            icon={<PuzzleIcon className="h-6 w-6" />}
+            title="Integrated Solutions"
+            description="Comprehensive and cohesive solutions to streamline and optimize your business."
+          />
+          <ServiceItem
+            icon={<CodeIcon className="h-6 w-6" />}
+            title="Web Development"
+            description="Designing and developing custom websites with cutting-edge technologies."
+          />
+          <ServiceItem
+            icon={<MicroscopeIcon className="h-6 w-6" />}
+            title="SEO Optimization"
+            description="Improving online visibility and organic traffic through strategic tactics."
+          />
+          <ServiceItem
+            icon={<CalendarIcon className="h-6 w-6" />}
+            title="Product Planning"
+            description="Comprehensive services to plan and strategize for successful product development."
+          />
         </div>
       </div>
     </section>
+  );
+}
+
+function ServiceItem({ icon, title, description }) {
+  return (
+    <div className="flex flex-col items-center text-center max-w-sm gap-4 rounded-lg bg-background p-6 shadow-sm transition-transform hover:-translate-y-2 hover:shadow-lg">
+      <div className="rounded-full bg-primary p-3 text-primary-foreground">
+        {icon}
+      </div>
+      <h3 className="text-xl font-semibold">{title}</h3>
+      <p className="text-muted-foreground">{description}</p>
+    </div>
   );
 }
 
