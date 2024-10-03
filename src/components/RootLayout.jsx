@@ -11,9 +11,9 @@ import Button from "./Button";
 import clsx from "clsx";
 import Offices from "./Offices";
 import SocialMedia from "./SocialMedia";
-import Footer from "./Footer";
 import Image from "next/image";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const RootLayoutInner = ({ children }) => {
   const panelId = useId();
@@ -80,9 +80,9 @@ const RootLayoutInner = ({ children }) => {
           className="relative isolate flex w-full flex-col pt-9"
         >
           <main className="w-full flex-auto">{children}</main>
-          <Footer />
         </motion.div>
       </motion.div>
+      <Footer />
     </MotionConfig>
   );
 };
