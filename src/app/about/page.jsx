@@ -10,29 +10,37 @@ const AboutPage = () => {
     <>
       <PageIntro eyebrow="About us" title="Our strength is collaboration">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          At triangle, our strength lies in our team and our collaborative
+          approach. We believe in placing our clients at the heart of everything
+          we do, ensuring their vision drives every project from start to
+          finish.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            What began as a side project among six passionate developers five
+            years ago has now evolved into a full-fledged firm. For the past two
+            years, we’ve dedicated ourselves to providing high-quality
+            development services, refining our skills, and building strong
+            client relationships.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            Each member of our team brings a unique set of expertise, but
+            together, we form a cohesive unit that delivers seamless solutions.
+            Our approach is simple: we combine technical expertise with creative
+            problem-solving to offer solutions tailored to meet the individual
+            needs of our clients.
+          </p>
+          <p>
+            At triangle, we&apos;re more than just developers — we&apos;re your
+            partner in turning ideas into reality.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="8" label="Underpaid employees" />
+          <StatListItem value="10" label="Placated clients" />
+          <StatListItem value="$23,813k" label="Invoices billed" />
         </StatList>
       </Container>
       <Cultures />
