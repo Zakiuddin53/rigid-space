@@ -16,7 +16,7 @@ export default function Layout({ children }) {
       lang="en"
       className="h-full bg-neutral-950 text-base antialiased text-neutral-100"
     >
-      <body className="flex flex-col min-h-screen">
+      <body>
         <Navbar />
         <RootLayout>{children}</RootLayout>
       </body>
