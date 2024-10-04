@@ -67,10 +67,6 @@ const SectionHeader = () => (
         <br />
         respond to new opportunities.
       </p>
-      <p className="mt-4 text-lg text-neutral-600 max-w-2xl mx-auto">
-        As long as those opportunities involve giving us money to re-purpose old
-        projects — we can come up with an endless number of those.
-      </p>
     </FadeIn>
   </div>
 );
