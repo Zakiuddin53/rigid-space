@@ -1,6 +1,6 @@
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
-import Cultures from "@/components/Cultures";
+import Cultures from "@/components/about/Cultures";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";

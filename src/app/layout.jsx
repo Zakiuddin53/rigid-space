@@ -1,6 +1,6 @@
-import RootLayout from "@/components/RootLayout";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import RootLayout from "@/components/layout/RootLayout";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 export const metadata = {

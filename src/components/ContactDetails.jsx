@@ -1,6 +1,6 @@
 import React from "react";
 import FadeIn from "./FadeIn";
-import Offices from "./Offices";
+import Offices from "./about/Offices";
 import Border from "./Border";
 import Link from "next/link";
 import SocialMedia from "./SocialMedia";

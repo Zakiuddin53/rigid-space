@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
 import Button from "./Button";
-import Offices from "./Offices";
+import Offices from "./about/Offices";
 
 const ContactSection = () => {
   return (

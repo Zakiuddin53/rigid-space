@@ -3,7 +3,7 @@ import ContactSection from "@/components/ContactSection";
 import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
 import PageIntro from "@/components/PageIntro";
-import Values from "@/components/Values";
+import Values from "@/components/about/Values";
 import React from "react";
 
 const ProcessPage = () => {
