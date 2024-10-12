@@ -1,5 +1,5 @@
 import FadeIn, { FadeInStagger } from "./FadeIn";
-import Border from "./Border";
+import Border from "./shared/Border";
 import clsx from "clsx";
 
 const List = ({ className, children }) => {

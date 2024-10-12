@@ -1,4 +1,4 @@
-import Container from "@/components/Container";
+import Container from "@/components/shared/Container";
 import FadeIn from "@/components/FadeIn";
 import Link from "next/link";
 import React from "react";

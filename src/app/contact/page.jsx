@@ -1,5 +1,5 @@
 import ContactForm from "@/components/ContactForm";
-import Container from "@/components/Container";
+import Container from "@/components/shared/Container";
 import PageIntro from "@/components/PageIntro";
 
 const ContactPage = () => {

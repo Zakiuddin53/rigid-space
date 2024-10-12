@@ -1,6 +1,5 @@
 import React from "react";
-import Container from "../Container";
-import FadeIn from "../FadeIn";
+import Container from "../shared/Container";
 import Link from "next/link";
 
 const Footer = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "./Container";
+import Container from "./shared/Container";
 import FadeIn from "./FadeIn";
 import Button from "./Button";
 import Offices from "./about/Offices";

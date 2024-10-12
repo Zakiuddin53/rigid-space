@@ -1,7 +1,7 @@
 import React from "react";
 import GridPattern from "../GridPattern";
 import SectionIntro from "../SectionIntro";
-import Container from "../Container";
+import Container from "../shared/Container";
 import { GridList, GridListItem } from "../GridList";
 
 const Values = () => {

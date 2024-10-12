@@ -1,4 +1,4 @@
-import Border from "./Border";
+import Border from "./shared/Border";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 export function StatList({ children, ...props }) {

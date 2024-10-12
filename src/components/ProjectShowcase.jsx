@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, ChevronLeft, ChevronRight } from "lucide-react";
-import Container from "./Container";
+import Container from "./shared/Container";
 import FadeIn from "./FadeIn";
 import SectionIntro from "./SectionIntro";
 import List, { ListItem } from "./List";

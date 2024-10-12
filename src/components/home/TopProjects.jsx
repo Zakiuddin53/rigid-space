@@ -1,6 +1,6 @@
 import React from "react";
 import SectionIntro from "../SectionIntro";
-import Container from "../Container";
+import Container from "../shared/Container";
 import FadeIn from "../FadeIn";
 import Link from "next/link";
 import Image from "next/image";

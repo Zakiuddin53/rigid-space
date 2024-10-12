@@ -7,7 +7,7 @@ import logoMailSmirk from "../images/clients/mail-smirk/logo-light.svg";
 import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
 import logoPhobiaLight from "../images/clients/phobia/logo-light.svg";
 import logoUnseal from "../images/clients/unseal/logo-light.svg";
-import Container from "../Container";
+import Container from "../shared/Container";
 import FadeIn, { FadeInStagger } from "../FadeIn";
 
 const clients = [

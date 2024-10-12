@@ -1,10 +1,9 @@
 import React from "react";
-import Container from "../Container";
+import Container from "../shared/Container";
 import FadeIn from "../FadeIn";
-import StylizedImage from "../StylizedImage";
+import StylizedImage from "../shared/StylizedImage";
 import imageLaptop from "../../images/laptop.jpg";
 import List, { ListItem } from "../List";
-
 const Services = () => {
   return (
     <>

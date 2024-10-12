@@ -1,10 +1,9 @@
 import React from "react";
 import SectionIntro from "./SectionIntro";
-import Container from "./Container";
+import Container from "./shared/Container";
 import FadeIn from "./FadeIn";
-import StylizedImage from "./StylizedImage";
-import imageLaptop from "../images/laptop.jpg";
 import List, { ListItem } from "./List";
+import { AnimatedBeamMultipleOutputDemo } from "./ui/animated-beam";
 
 const Services = () => {
   return (
@@ -16,11 +15,7 @@ const Services = () => {
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
-              <StylizedImage
-                src={imageLaptop}
-                sizes="(min-width: 1024px) 41rem, 31rem"
-                className="justify-center lg:justify-end"
-              />
+              <AnimatedBeamMultipleOutputDemo className="w-full h-full" />
             </FadeIn>
           </div>
           {/* List item */}

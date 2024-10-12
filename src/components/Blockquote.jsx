@@ -1,7 +1,6 @@
 import Image from "next/image";
 import clsx from "clsx";
-import Border from "./Border";
-
+import Border from "./shared/Border";
 function BlockquoteWithImage({ author, image, children, className }) {
   return (
     <figure
