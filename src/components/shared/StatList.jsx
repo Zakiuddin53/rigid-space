@@ -1,5 +1,5 @@
-import Border from "./shared/Border";
-import FadeIn, { FadeInStagger } from "./FadeIn";
+import Border from "./Border";
+import FadeIn, { FadeInStagger } from "../FadeIn";
 
 export function StatList({ children, ...props }) {
   return (

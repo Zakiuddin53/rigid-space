@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import FadeIn from "./FadeIn";
+import FadeIn from "../FadeIn";
 import StylizedImage from "./StylizedImage";
 
 const Section = ({ title, image, children }) => {

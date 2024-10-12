@@ -2,7 +2,7 @@ import ContactSection from "@/components/ContactSection";
 import Container from "@/components/shared/Container";
 import Cultures from "@/components/about/Cultures";
 import PageIntro from "@/components/PageIntro";
-import { StatList, StatListItem } from "@/components/StatList";
+import { StatList, StatListItem } from "@/components/shared/StatList";
 import React from "react";
 
 const AboutPage = () => {

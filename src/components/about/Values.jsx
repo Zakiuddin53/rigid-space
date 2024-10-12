@@ -1,5 +1,5 @@
 import React from "react";
-import GridPattern from "../GridPattern";
+import GridPattern from "../shared/GridPattern";
 import SectionIntro from "../SectionIntro";
 import Container from "../shared/Container";
 import { GridList, GridListItem } from "../GridList";

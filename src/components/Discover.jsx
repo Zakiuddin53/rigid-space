@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "./Section";
+import Section from "./shared/Section";
 import imageWhiteboard from "@/images/whiteboard.jpg";
-import { TagList, TagListItem } from "./TagList";
+import { TagList, TagListItem } from "./shared/TagList";
 
 const Discover = () => {
   return (

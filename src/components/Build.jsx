@@ -1,5 +1,5 @@
 import React from "react";
-import Section from "./Section";
+import Section from "./shared/Section";
 import imageLaptop from "@/images/laptop.jpg";
 import Blockquote from "./Blockquote";
 
